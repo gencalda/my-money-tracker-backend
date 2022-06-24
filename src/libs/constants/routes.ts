@@ -1,9 +1,9 @@
 enum ROUTES {
-  TRANSACTIONS = '/api/transactions',
-  TRANSACTIONS_ID = '/api/transactions/:transactionId',
-  TRANSACTION_SOURCES = '/api/transaction-sources',
-  ATTACHMENTS = '/api/attachments/:attachmentType',
-  ATTACHMENTS_EVENT = '/api/attachments/{attachmentType}',
+  TRANSACTIONS = '/transactions',
+  TRANSACTIONS_ID = '/transactions/:transactionId',
+  TRANSACTION_SOURCES = '/transaction-sources',
+  ATTACHMENTS = '/attachments/:attachmentType',
+  ATTACHMENTS_EVENT = '/attachments/{attachmentType}',
 }
 
 export default ROUTES;
